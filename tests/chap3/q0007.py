@@ -8,7 +8,7 @@ from exercises.chap3 import q0007
 
 class TestCase(unittest.TestCase):
     def test_docstring(self):
-        self.assertIsNotNone(q0007.foo.__doc__)
+        self.assertIsNotNone(q0007.circular.__doc__)
 
     def test_zero(self):
         self.assertEqual({}, q0007.circular(0))

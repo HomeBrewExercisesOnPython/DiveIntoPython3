@@ -9,7 +9,7 @@ from exercises.chap3 import q0008
 
 class TestCase(unittest.TestCase):
     def test_docstring(self):
-        self.assertIsNotNone(q0008.foo.__doc__)
+        self.assertIsNotNone(q0008.circular.__doc__)
 
     def test_one(self):
         self.assertEqual({'a': 'a'}, q0008.circular(1))
